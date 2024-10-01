@@ -8,8 +8,8 @@
 // }
 // else // production server database credentials
 // {
-//     $db_name='spuruomz_wp681';
-//     $db_username='spuruomz_wp681';
+//     $db_name='spuruomz_ccac';
+//     $db_username='spuruomz_ccac';
 //     $db_password='Sup3rf0xy!';
 //     $db_host='localhost';
 // }
