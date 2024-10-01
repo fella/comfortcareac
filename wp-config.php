@@ -1,25 +1,25 @@
 <?php
-// if($_SERVER['SERVER_NAME']=="ccac.dls") //change if local server name is different
-// {
-//     $db_name='ccacdb';
-//     $db_username='ccacdb';
-//     $db_password='Sup3rf0xy!';
-//     $db_host= 'mysql';
-// }
-// else // production server database credentials
-// {
-//     $db_name='spuruomz_ccac';
-//     $db_username='spuruomz_ccac';
-//     $db_password='Sup3rf0xy!';
-//     $db_host='localhost';
-// }
+if($_SERVER['SERVER_NAME']=="comfortcareac.dls") //change if local server name is different
+{
+    $db_name='ccacdb';
+    $db_username='ccacdb';
+    $db_password='Sup3rf0xy!';
+    $db_host= 'mysql';
+}
+else // production server database credentials
+{
+    $db_name='spuruomz_wp682';
+    $db_username='spuruomz_wp682';
+    $db_password='[@4pn-S6[1epVPk(';
+    $db_host='localhost';
+}
 
 // THIS IS STAGING STUFF DAD!
 
-$db_name='ccacdb';
-$db_username='ccacdb';
-$db_password='Sup3rf0xy!';
-$db_host= 'mysql';
+// $db_name='ccacdb';
+// $db_username='ccacdb';
+// $db_password='Sup3rf0xy!';
+// $db_host= 'mysql';
 
 // print_r($_SERVER['SERVER_NAME']);
 
