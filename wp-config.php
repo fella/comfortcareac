@@ -8,8 +8,8 @@ if($_SERVER['SERVER_NAME']=="comfortcareac.dls") //change if local server name i
 }
 else // production server database credentials
 {
-    $db_name='spuruomz_wp682';
-    $db_username='spuruomz_wp682';
+    $db_name='spuruomz_ccacstg';
+    $db_username='spuruomz_ccacstg';
     $db_password='[@4pn-S6[1epVPk(';
     $db_host='localhost';
 }
