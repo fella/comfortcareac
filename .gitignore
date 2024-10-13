@@ -27,7 +27,7 @@ wp-config.php
 /wp-content/plugins/hello.php
 
 # Uploads
-/wp-content/uploads/
+# /wp-content/uploads/
 
 # Log files
 *.log
@@ -45,8 +45,9 @@ wp-config.php
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
-<<<<<<< HEAD
 #/wp-content/themes
-=======
+
 #/wp-content/themes
->>>>>>> 83140d92fa8548a70ebbf2834367bf4946ef4700
+
+#/wp-content/themes
+

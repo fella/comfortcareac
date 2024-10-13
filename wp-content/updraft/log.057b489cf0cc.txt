@@ -1,0 +1,331 @@
+0000.004 (0) Opened log file at time: Mon, 07 Oct 2024 16:09:37 +0000 on https://comfortcareac.dls
+0000.013 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.23 (fpm-fcgi, Linux dd64c61f0819 5.15.133.1-microsoft-standard-WSL2 #1 SMP Thu Oct 5 21:02:42 UTC 2023 x86_64) MySQL: 8.3.0 (max packet size=32505856) WPLANG: en_US Server: nginx/1.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 56.6M | 58.5M) multisite: N openssl: OpenSSL 3.3.2 3 Sep 2024 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.023 (0) Free space on disk containing Updraft's temporary directory: 736798.6 MB
+0000.045 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.078 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.096 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-10-07 16:09:37
+0000.106 (0) Semaphore (fd, wp_options) reset to 1
+0000.114 (0) Set semaphore last lock (fd) time to 2024-10-07 16:09:37
+0000.123 (0) Semaphore lock (fd) complete
+0000.151 (0) Backup run: resumption=0, nonce=057b489cf0cc, file_nonce=057b489cf0cc begun at=1728317377 (0s ago), job type=backup
+0000.168 (0) Scheduling a resumption (1) after 300 seconds (1728317677) in case this run gets aborted
+0000.231 (0) Checking if we have a zip executable available
+0000.250 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.259 (0) Creation of backups of directories: beginning
+0000.304 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0019.322 (0) Total entities for the zip file: 833 directories, 4109 files (0 skipped as non-modified), 71.8 MB
+0019.335 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 73564.4 KB, split: 409600 KB)
+0021.361 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0023.469 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.479 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0025.680 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0027.264 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0028.755 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0029.768 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0030.812 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0032.276 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0032.907 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0034.315 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0036.251 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0037.656 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0039.189 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0040.522 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0041.156 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0043.523 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0046.116 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0048.129 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0050.477 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0052.419 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0054.202 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0056.057 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0058.019 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0059.316 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0060.618 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0061.455 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0063.012 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0064.740 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0066.212 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0066.978 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0067.684 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0068.258 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0068.884 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0069.717 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0071.720 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0073.982 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0075.285 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0077.211 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0079.641 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0081.690 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+1678.670 (0) PHP event: code E_WARNING: rename(/var/www/html/wp-content/updraft/pclzip-67040e4b9cb1e.tmp,/var/www/html/wp-content/updraft/backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.tmp): No such file or directory (line 5659, wp-admin/includes/class-pclzip.php)
+1678.679 (0) PHP event: code E_WARNING: copy(/var/www/html/wp-content/updraft/pclzip-67040e4b9cb1e.tmp): Failed to open stream: No such file or directory (line 5662, wp-admin/includes/class-pclzip.php)
+1730.796 (0) The time we have been running (1730.8) is approaching the resumption interval (300) - increasing resumption interval to 1761
+1730.831 (0) Creating zip file manifest (backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.list-temp.tmp)
+1730.996 (0) Successfully created zip file manifest (size: 74045)
+1731.114 (0) Created plugins zip (0) - 1515.8 KB in 1730.7 s (0.9 KB/s) (sha1: 32f522aa1d1e543b593283e165ab528ec70914aa, sha256: 16a8f3315e54679f4c07fe7aa2c3128b618a77662e0913515db3b339e83f827e)
+1731.164 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+1731.170 (0) No remote despatch: user chose no remote backup service
+1731.176 (0) Recording as successfully uploaded: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip
+1731.189 (0) Deleting zip manifest (backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip.list.tmp)
+1731.202 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1731.209 (0) Number of backup sets in history: 0; groups (db): 1
+1731.215 (0) Number of backup sets in history: 0; groups (files): 1
+1731.221 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+1731.242 (0) Deleting old temporary file: pclzip-67040e842bb06.tmp
+1731.261 (0) Beginning creation of dump of themes (split every: 400 MB)
+1736.326 (0) Total entities for the zip file: 261 directories, 1697 files (0 skipped as non-modified), 20.3 MB
+1736.336 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 20802.8 KB, split: 409600 KB)
+1736.890 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+1737.340 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+1738.030 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+1738.849 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+1739.786 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+1740.663 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+1741.764 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+1743.288 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+1744.724 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+1746.508 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+1747.304 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 1100 files added (on-disk size: 0 KB)
+1748.418 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 1200 files added (on-disk size: 0 KB)
+1749.599 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 1300 files added (on-disk size: 0 KB)
+1750.919 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 1400 files added (on-disk size: 0 KB)
+1751.924 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 1500 files added (on-disk size: 0 KB)
+1752.794 (0) Zip: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp: 1600 files added (on-disk size: 0 KB)
+1923.483 (0) PHP event: code E_WARNING: rename(/var/www/html/wp-content/updraft/pclzip-67040f422cb53.tmp,/var/www/html/wp-content/updraft/backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp): No such file or directory (line 5659, wp-admin/includes/class-pclzip.php)
+1923.494 (0) PHP event: code E_WARNING: copy(/var/www/html/wp-content/updraft/pclzip-67040f422cb53.tmp): Failed to open stream: No such file or directory (line 5662, wp-admin/includes/class-pclzip.php)
+1932.108 (0) PHP event: code E_WARNING: rename(/var/www/html/wp-content/updraft/pclzip-67040f4b90a01.tmp,/var/www/html/wp-content/updraft/backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.tmp): No such file or directory (line 5659, wp-admin/includes/class-pclzip.php)
+1932.117 (0) PHP event: code E_WARNING: copy(/var/www/html/wp-content/updraft/pclzip-67040f4b90a01.tmp): Failed to open stream: No such file or directory (line 5662, wp-admin/includes/class-pclzip.php)
+1934.642 (0) The time we have been running (1934.6) is approaching the resumption interval (1761) - increasing resumption interval to 1965
+1934.666 (0) Creating zip file manifest (backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.list-temp.tmp)
+1934.695 (0) Successfully created zip file manifest (size: 6221)
+1934.751 (0) Created themes zip (0) - 76.4 KB in 203.5 s (0.4 KB/s) (sha1: 2e571bf5b8b0ee0d6f2a7da3e1f02713974a55f5, sha256: 6d72996784947a48b116ace7bfb387d8e18d6beb8fb6e9af07812966f7efb484)
+1934.801 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+1934.809 (0) No remote despatch: user chose no remote backup service
+1934.816 (0) Recording as successfully uploaded: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip
+1934.828 (0) Deleting zip manifest (backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip.list.tmp)
+1934.843 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1934.850 (0) Number of backup sets in history: 1; groups (db): 1
+1934.856 (0) Examining (for databases) backup set with group_id=0, nonce=24d445148a22, datestamp=1728316750 (Oct 07 2024 15:59:10)
+1934.863 (0) Number of backup sets in history: 1; groups (files): 1
+1934.874 (0) Examining (for files) backup set with nonce=24d445148a22, datestamp=1728316750 (Oct 07 2024 15:59:10)
+1934.874 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+1934.884 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1934.926 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1934.937 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+1934.947 (0) finding files: 2022: adding to list (1)
+1934.957 (0) finding files: 2024: adding to list (2)
+1934.967 (0) finding files: blocksy: adding to list (3)
+1934.978 (0) finding files: wpforms: adding to list (4)
+1934.987 (0) Beginning creation of dump of uploads (split every: 400 MB)
+1935.185 (0) Total entities for the zip file: 11 directories, 84 files (0 skipped as non-modified), 4.1 MB
+1935.191 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 4168.8 KB, split: 409600 KB)
+1940.936 (0) The time we have been running (1940.9) is approaching the resumption interval (1965) - increasing resumption interval to 1971
+1940.962 (0) Creating zip file manifest (backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-uploads.zip.list-temp.tmp)
+1941.000 (0) Successfully created zip file manifest (size: 4397)
+1941.223 (0) Created uploads zip (0) - 2431.4 KB in 6.2 s (393.2 KB/s) (sha1: 52b0d48a035a71de51483f723313c243a43c64ae, sha256: 9e45e8a5d0f286b067978fdc085d802d322ffe25705f1f579cd624a789821b98)
+1941.263 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+1941.271 (0) No remote despatch: user chose no remote backup service
+1941.278 (0) Recording as successfully uploaded: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-uploads.zip
+1941.311 (0) Deleting zip manifest (backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-uploads.zip.list.tmp)
+1941.330 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1941.341 (0) Number of backup sets in history: 1; groups (db): 1
+1941.350 (0) Examining (for databases) backup set with group_id=0, nonce=24d445148a22, datestamp=1728316750 (Oct 07 2024 15:59:10)
+1941.359 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1941.368 (0) Number of backup sets in history: 1; groups (files): 1
+1941.376 (0) Examining (for files) backup set with nonce=24d445148a22, datestamp=1728316750 (Oct 07 2024 15:59:10)
+1941.377 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1941.385 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1941.434 (0) No backup of mu-plugins: excluded by user's options
+1941.458 (0) Beginning backup of other directories found in the content directory (index: 0)
+1941.470 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1941.482 (0) Looking for candidates to backup in: /var/www/html/wp-content
+1941.497 (0) finding files: index.php: adding to list (1)
+1941.510 (0) finding files: plugins: skipping: this is the plugins directory
+1941.522 (0) finding files: themes: skipping: this is the themes directory
+1941.537 (0) finding files: updraft: skipping: this is the updraft directory
+1941.551 (0) finding files: upgrade: skipping: excluded by options
+1941.561 (0) finding files: upgrade-temp-backup: adding to list (2)
+1941.577 (0) finding files: uploads: skipping: this is the uploads directory
+1941.655 (0) Total entities for the zip file: 2 directories, 1 files (0 skipped as non-modified), 0 MB
+1941.666 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 0 KB, split: 409600 KB)
+1941.789 (0) The time we have been running (1941.8) is approaching the resumption interval (1971) - increasing resumption interval to 1972
+1941.814 (0) Creating zip file manifest (backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-others.zip.list-temp.tmp)
+1941.834 (0) Successfully created zip file manifest (size: 43)
+1941.904 (0) Created others zip (0) - 0.4 KB in 0.3 s (1.4 KB/s) (sha1: 9de35247859c28c625c30bac8d332de47a84f0a2, sha256: d6df84815d37e85c26ba62e13e750e717c88a9d98f9d13f221db524fe189c699)
+1941.969 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+1941.978 (0) No remote despatch: user chose no remote backup service
+1941.989 (0) Recording as successfully uploaded: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-others.zip
+1942.016 (0) Deleting zip manifest (backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-others.zip.list.tmp)
+1942.041 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1942.052 (0) Number of backup sets in history: 1; groups (db): 1
+1942.061 (0) Examining (for databases) backup set with group_id=0, nonce=24d445148a22, datestamp=1728316750 (Oct 07 2024 15:59:10)
+1942.062 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1942.070 (0) Number of backup sets in history: 1; groups (files): 1
+1942.077 (0) Examining (for files) backup set with nonce=24d445148a22, datestamp=1728316750 (Oct 07 2024 15:59:10)
+1942.077 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1942.084 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1942.140 (0) Saving backup status to database (elements: 8)
+1942.155 (0) Beginning creation of database dump (WordPress DB)
+1942.163 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+1942.181 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+1942.233 (0) Binary mysqldump: error (code: 2)
+1942.305 (0) Table wp_options: Total expected rows (via COUNT): 284
+1942.312 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1942.409 (0) Table wp_options: Rows added in this batch (next record: 4295): 280 (uncompressed bytes in this segment=1213822) in 0.12 seconds
+1942.453 (0) The time we have been running (1942.4) is approaching the resumption interval (1972) - increasing resumption interval to 1973
+1942.485 (0) Table wp_options: finishing file(s) (2, 274.9 KB)
+1942.503 (0) Table wp_users: Total expected rows (via COUNT): 1
+1942.509 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1942.521 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1377) in 0.02 seconds
+1942.548 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+1942.571 (0) Table wp_usermeta: Total expected rows (via COUNT): 41
+1942.577 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1942.589 (0) Table wp_usermeta: Rows added in this batch (next record: 41): 41 (uncompressed bytes in this segment=2970) in 0.03 seconds
+1942.626 (0) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+1942.653 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 1
+1942.659 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1942.673 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 7): 1 (uncompressed bytes in this segment=2052) in 0.03 seconds
+1942.713 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.7 KB)
+1942.732 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+1942.745 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=602) in 0.01 seconds
+1942.777 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+1942.797 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 1
+1942.803 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1942.816 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=685) in 0.02 seconds
+1942.849 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+1942.868 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 1
+1942.874 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1942.881 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=899) in 0.02 seconds
+1942.912 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+1942.937 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+1942.949 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.02 seconds
+1942.990 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+1943.009 (0) Table wp_comments: Total expected rows (via COUNT): 1
+1943.015 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1943.028 (0) Table wp_comments: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=2136) in 0.02 seconds
+1943.061 (0) The time we have been running (1943) is approaching the resumption interval (1973) - increasing resumption interval to 1974
+1943.087 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+1943.105 (0) Table wp_links: Total expected rows (via COUNT): 0
+1943.119 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.01 seconds
+1943.149 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+1943.174 (0) Table wp_postmeta: Total expected rows (via COUNT): 425
+1943.180 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1943.203 (0) Table wp_postmeta: Rows added in this batch (next record: 496): 425 (uncompressed bytes in this segment=499736) in 0.04 seconds
+1943.240 (0) Table wp_postmeta: finishing file(s) (2, 40.4 KB)
+1943.268 (0) Table wp_posts: Total expected rows (via COUNT): 168
+1943.275 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1943.674 (0) Table wp_posts: Rows added in this batch (next record: 723): 168 (uncompressed bytes in this segment=11334501) in 0.42 seconds
+1943.731 (0) Table wp_posts: finishing file(s) (2, 1439.8 KB)
+1943.757 (0) Table wp_term_relationships: Total expected rows (approximate): 13
+1943.773 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 14 (uncompressed bytes in this segment=869) in 0.02 seconds
+1943.819 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+1943.853 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+1943.861 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1943.878 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1096) in 0.04 seconds
+1943.927 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+1943.960 (0) Table wp_termmeta: Total expected rows (via COUNT): 5
+1943.969 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1943.978 (0) Table wp_termmeta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=925) in 0.03 seconds
+1944.037 (0) The time we have been running (1944) is approaching the resumption interval (1974) - increasing resumption interval to 1975
+1944.061 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+1944.089 (0) Table wp_terms: Total expected rows (via COUNT): 7
+1944.098 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1944.106 (0) Table wp_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=980) in 0.02 seconds
+1944.152 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+1944.175 (0) Table wp_hkdev_mm_access_keys: Total expected rows (via COUNT): 0
+1944.192 (0) Table wp_hkdev_mm_access_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.02 seconds
+1944.236 (0) Table wp_hkdev_mm_access_keys: finishing file(s) (2, 0.4 KB)
+1944.263 (0) Table wp_hkdev_mm_unrestricted_ips: Total expected rows (via COUNT): 0
+1944.273 (0) Table wp_hkdev_mm_unrestricted_ips: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.01 seconds
+1944.316 (0) Table wp_hkdev_mm_unrestricted_ips: finishing file(s) (2, 0.4 KB)
+1944.352 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 2
+1944.359 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1944.374 (0) Table wp_wpforms_logs: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=992) in 0.04 seconds
+1944.423 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.5 KB)
+1944.454 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+1944.472 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.03 seconds
+1944.514 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+1944.531 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+1944.543 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1958) in 0.01 seconds
+1944.570 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+1944.594 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 0
+1944.606 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=601) in 0.02 seconds
+1944.640 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.3 KB)
+1944.646 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wp-content/updraft/backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+1944.659 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_options.table.tmpr4296.gz (1/22/fopen): adding to final database dump
+1944.896 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_options.table.gz (2/22/fopen): adding to final database dump
+1944.905 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_users.table.tmpr2.gz (3/22/fopen): adding to final database dump
+1944.915 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_users.table.gz (4/22/fopen): adding to final database dump
+1944.922 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_usermeta.table.tmpr42.gz (5/22/fopen): adding to final database dump
+1944.933 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_usermeta.table.gz (6/22/fopen): adding to final database dump
+1944.940 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_actionscheduler_actions.table.tmpr8.gz (7/22/fopen): adding to final database dump
+1944.951 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_actionscheduler_actions.table.gz (8/22/fopen): adding to final database dump
+1944.958 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/22/fopen): adding to final database dump
+1944.969 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_actionscheduler_claims.table.gz (10/22/fopen): adding to final database dump
+1944.978 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_actionscheduler_groups.table.tmpr2.gz (11/22/fopen): adding to final database dump
+1944.990 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_actionscheduler_groups.table.gz (12/22/fopen): adding to final database dump
+1944.997 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_actionscheduler_logs.table.tmpr2.gz (13/22/fopen): adding to final database dump
+1945.007 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_actionscheduler_logs.table.gz (14/22/fopen): adding to final database dump
+1945.016 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_commentmeta.table.tmpr0.gz (15/22/fopen): adding to final database dump
+1945.029 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_commentmeta.table.gz (16/22/fopen): adding to final database dump
+1945.037 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_comments.table.tmpr3.gz (17/22/fopen): adding to final database dump
+1945.050 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_comments.table.gz (18/22/fopen): adding to final database dump
+1945.058 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_links.table.tmpr0.gz (19/22/fopen): adding to final database dump
+1945.070 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_links.table.gz (20/22/fopen): adding to final database dump
+1945.078 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_postmeta.table.tmpr497.gz (21/22/fopen): adding to final database dump
+1945.123 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_postmeta.table.gz (22/22/fopen): adding to final database dump
+1945.131 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_posts.table.tmpr724.gz (23/22/fopen): adding to final database dump
+1946.519 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_posts.table.gz (24/22/fopen): adding to final database dump
+1946.530 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_term_relationships.table.tmpr100001.gz (25/22/fopen): adding to final database dump
+1946.543 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_term_relationships.table.gz (26/22/fopen): adding to final database dump
+1946.552 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_term_taxonomy.table.tmpr8.gz (27/22/fopen): adding to final database dump
+1946.565 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_term_taxonomy.table.gz (28/22/fopen): adding to final database dump
+1946.574 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_termmeta.table.tmpr6.gz (29/22/fopen): adding to final database dump
+1946.587 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_termmeta.table.gz (30/22/fopen): adding to final database dump
+1946.595 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_terms.table.tmpr8.gz (31/22/fopen): adding to final database dump
+1946.608 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_terms.table.gz (32/22/fopen): adding to final database dump
+1946.617 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_hkdev_mm_access_keys.table.tmpr0.gz (33/22/fopen): adding to final database dump
+1946.630 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_hkdev_mm_access_keys.table.gz (34/22/fopen): adding to final database dump
+1946.640 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_hkdev_mm_unrestricted_ips.table.tmpr0.gz (35/22/fopen): adding to final database dump
+1946.654 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_hkdev_mm_unrestricted_ips.table.gz (36/22/fopen): adding to final database dump
+1946.663 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_wpforms_logs.table.tmpr3.gz (37/22/fopen): adding to final database dump
+1946.676 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_wpforms_logs.table.gz (38/22/fopen): adding to final database dump
+1946.685 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (39/22/fopen): adding to final database dump
+1946.699 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_wpforms_payment_meta.table.gz (40/22/fopen): adding to final database dump
+1946.708 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_wpforms_payments.table.tmpr0.gz (41/22/fopen): adding to final database dump
+1946.721 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_wpforms_payments.table.gz (42/22/fopen): adding to final database dump
+1946.729 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_wpforms_tasks_meta.table.tmpr0.gz (43/22/fopen): adding to final database dump
+1946.744 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db-table-wp_wpforms_tasks_meta.table.gz (44/22/fopen): adding to final database dump
+1946.762 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db.gz: finished writing out complete database file (1765.2 KB)
+1946.999 (0) Total database tables backed up: 22 (backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db.gz, size: 1807696, sha1: 1e1394dd3a03f62a2ba40038fb008afe27603fb2, sha256: 9c7dad6d6f9f29c7522b03373d6d65d820511606aa6baf1419eccda66f413a3d)
+1947.041 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-plugins.zip: plugins: This file has already been successfully uploaded
+1947.048 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-themes.zip: themes: This file has already been successfully uploaded
+1947.055 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-uploads.zip: uploads: This file has already been successfully uploaded
+1947.062 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-others.zip: others: This file has already been successfully uploaded
+1947.070 (0) backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db.gz: db: This file has not yet been successfully uploaded: will queue
+1947.078 (0) Saving backup history. Total backup size: 5.7 MB
+1947.094 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+1947.119 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+1947.126 (0) No remote despatch: user chose no remote backup service
+1947.134 (0) Recording as successfully uploaded: backup_2024-10-07-1609_Comfort_Care_Air_Conditioning_I_057b489cf0cc-db.gz
+1947.157 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1947.165 (0) Number of backup sets in history: 2; groups (db): 1
+1947.172 (0) Examining (for databases) backup set with group_id=0, nonce=057b489cf0cc, datestamp=1728317377 (Oct 07 2024 16:09:37)
+1947.180 (0) This backup set is the backup set just made, so will not be deleted.
+1947.180 (0) Examining (for databases) backup set with group_id=0, nonce=24d445148a22, datestamp=1728316750 (Oct 07 2024 15:59:10)
+1947.180 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1947.187 (0) Number of backup sets in history: 2; groups (files): 1
+1947.195 (0) Examining (for files) backup set with nonce=057b489cf0cc, datestamp=1728317377 (Oct 07 2024 16:09:37)
+1947.195 (0) This backup set is the backup set just made, so will not be deleted.
+1947.203 (0) This backup set is the backup set just made, so will not be deleted.
+1947.203 (0) This backup set is the backup set just made, so will not be deleted.
+1947.203 (0) This backup set is the backup set just made, so will not be deleted.
+1947.204 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1947.210 (0) Examining (for files) backup set with nonce=24d445148a22, datestamp=1728316750 (Oct 07 2024 15:59:10)
+1947.211 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1947.211 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1947.227 (0) Resume backup (057b489cf0cc, 0): finish run
+1947.242 (0) Decremented the semaphore (fd) by 1
+1947.250 (0) Semaphore (fd, wp_options) still locked (0)
+1947.257 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+1947.282 (0) No email will/can be sent - the user has not configured an email address.
+1947.290 (0) The backup succeeded and is now complete
